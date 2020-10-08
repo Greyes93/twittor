@@ -1,9 +1,10 @@
 package bd
 
 import (
-	"ApiTwitter_go/models"
 	"context"
 	"time"
+
+	"github.com/Greyes93/twittor/models"
 
 	"go.mongodb.org/mongo-driver/bson"
 )
@@ -28,5 +29,4 @@ func ChequeoYaExisteUsuario(email string) (models.Usuario, bool, string) {
 	}
 
 	return resultado, true, ID
-
 }
