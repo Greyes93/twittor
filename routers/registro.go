@@ -1,10 +1,11 @@
 package routers
 
 import (
-	"ApiTwitter_go/bd"
-	"ApiTwitter_go/models"
 	"encoding/json"
 	"net/http"
+
+	"github.com/Greyes93/twittor/bd"
+	"github.com/Greyes93/twittor/models"
 )
 
 /*Registro es la función para crear en la base de datos el registro de Usuario*/

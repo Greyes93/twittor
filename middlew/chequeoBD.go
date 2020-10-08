@@ -1,7 +1,7 @@
 package middlew
 
 import (
-	"ApiTwitter_go/bd"
+	"github.com/Greyes93/twittor/bd"
 	"net/http"
 )
 

@@ -1,8 +1,8 @@
 package handlers
 
 import (
-	"ApiTwitter_go/middlew"
-	"ApiTwitter_go/routers"
+	"github.com/Greyes93/twittor/middlew"
+	"github.com/Greyes93/twittor/routers"
 	"log"
 	"net/http"
 	"os"

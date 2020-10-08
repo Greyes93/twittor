@@ -1,7 +1,7 @@
 package bd
 
 import (
-	"ApiTwitter_go/models"
+	"github.com/Greyes93/twittor/models"
 	"context"
 	"time"
 

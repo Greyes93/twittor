@@ -1,9 +1,10 @@
 package main
 
 import (
-	"ApiTwitter_go/bd"
-	"ApiTwitter_go/handlers"
 	"log"
+
+	"github.com/Greyes93/twittor/bd"
+	"github.com/Greyes93/twittor/handlers"
 )
 
 func main() {
